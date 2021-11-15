@@ -1,0 +1,271 @@
+/*! normalize.css v1.1.0 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%; /* 1 */ /*-webkit-text-size-adjust: 100%;  2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+}
+.main_slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 768px;
+  background: url(../images/bg1.png) left top no-repeat;
+  background-size: cover;
+}
+
+
+
+.bar-5{
+  position: absolute;
+  bottom: 254px;
+  left: 167px;
+  height: 0px;
+  width: 100px;
+}
+
+.bar-6{
+  position: absolute;
+  bottom: 254px;
+  left: 340px;
+  height:0px;
+  width: 100px;
+}
+
+.bar-7{
+  position: absolute;
+  bottom: 254px;
+  right: 282px;
+  height: 0px;
+  width: 100px;
+}
+
+.bar-8{
+  position: absolute;
+  bottom: 254px;
+  right: 125px;
+  height: 0px;
+  width: 100px;
+
+}
+
+.tbutton-1{
+  position: absolute;
+  top: 31px;
+  right: 314px;
+  height: 32px;
+  width: 36px;
+}
+
+.tbutton-2{
+  position: absolute;
+  top: 31px;
+  right: 271px;
+  height: 32px;
+  width: 36px;
+}
+
+.tbutton-3{
+  position: absolute;
+  top: 31px;
+  right: 227px;
+  height: 32px;
+  width: 36px;
+}
+
+.tbutton-4{
+  position: absolute;
+  top: 31px;
+  right: 183px;
+  height: 32px;
+  width: 36px;
+}
+
+.tbutton-5{
+  position: absolute;
+  top: 31px;
+  right: 138px;
+  height: 32px;
+  width: 36px;
+}
+
+.tbutton-6{
+  position: absolute;
+  top: 31px;
+  right: 94px;
+  height: 32px;
+  width: 36px;
+}
+
+.bbutton-1{
+  position: absolute;
+  bottom: 5px;
+  left: 53px;
+  height: 50px;
+  width: 100px;
+}
+
+
+.bbutton-2{
+  position: absolute;
+  bottom: 5px;
+  left: 156px;
+  height: 50px;
+  width: 100px;
+}
+
+
+.bbutton-3{
+  position: absolute;
+  bottom: 5px;
+  left: 261px;
+  height: 50px;
+  width: 100px;
+}
+
+
+.bbutton-4{
+  position: absolute;
+  bottom: 5px;
+  left: 362px;
+  height: 50px;
+  width: 89px;
+}
+
+
+.bbutton-5{
+  position: absolute;
+  bottom: 5px;
+  left: 454px;
+  height: 50px;
+  width: 131px;
+}
+
+
+.bbutton-6{
+  position: absolute;
+  bottom: 5px;
+  left: 595px;
+  height: 50px;
+  width: 78px;
+}
+
+
+.bbutton-7{
+  position: absolute;
+  bottom: 5px;
+  left: 679px;
+  height: 50px;
+  width: 100px;
+}
+
+
+.bbutton-8{
+  position: absolute;
+  bottom: 5px;
+  left: 782px;
+  height: 50px;
+  width: 100px;
+}
+
+.bbutton-9{
+  position: absolute;
+  bottom: 5px;
+  left: 886px;
+  height: 50px;
+  width: 134px;
+}
+
+.popup-1-btn{
+  position: absolute;
+  top: 643px;
+  right: 47px;
+  height: 45px;
+  width: 43px;
+}
+
+.popup-1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1024px;
+  height: 768px;
+  background: url(../images/popup-1.png) left top no-repeat;
+  background-size: cover;
+  display: none;
+  z-index: 1;
+}
+
+
+
+.close{
+  position: absolute;
+  top: 134px;
+  right: 55px;
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.page-16-btn{
+  position: absolute;
+  bottom: 106px;
+  right: 517px;
+  height: 52px;
+  width: 180px;
+}
